@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rrd SYSTEM "https://oss.oetiker.ch/rrdtool/rrdtool.dtd">
+<!-- Round Robin Database Dump -->
+<rrd>
+	<version>0003</version>
+	<step>30</step> <!-- Seconds -->
+	<lastupdate>1646622671</lastupdate> <!-- 2022-03-06 21:11:11 CST -->
+
+	<ds>
+		<name> octets </name>
+		<type> COUNTER </type>
+		<minimal_heartbeat>30</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>1823771</last_ds>
+		<value>1.5925269090e+03</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<!-- Round Robin Archives -->
+	<rra>
+		<cf>AVERAGE</cf>
+		<pdp_per_row>1</pdp_per_row> <!-- 30 seconds -->
+
+		<params>
+		<xff>5.0000000000e-01</xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value>8.1025507541e+01</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2022-03-06 20:55:30 CST / 1646621730 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:56:00 CST / 1646621760 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:56:30 CST / 1646621790 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:57:00 CST / 1646621820 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:57:30 CST / 1646621850 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:58:00 CST / 1646621880 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:58:30 CST / 1646621910 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:59:00 CST / 1646621940 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 20:59:30 CST / 1646621970 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:00:00 CST / 1646622000 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:00:30 CST / 1646622030 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:01:00 CST / 1646622060 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:01:30 CST / 1646622090 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:02:00 CST / 1646622120 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:02:30 CST / 1646622150 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:03:00 CST / 1646622180 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:03:30 CST / 1646622210 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:04:00 CST / 1646622240 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:04:30 CST / 1646622270 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:05:00 CST / 1646622300 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:05:30 CST / 1646622330 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:06:00 CST / 1646622360 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:06:30 CST / 1646622390 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:07:00 CST / 1646622420 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:07:30 CST / 1646622450 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:08:00 CST / 1646622480 --> <row><v>NaN</v></row>
+			<!-- 2022-03-06 21:08:30 CST / 1646622510 --> <row><v>8.2323148177e+01</v></row>
+			<!-- 2022-03-06 21:09:00 CST / 1646622540 --> <row><v>1.1114309965e+02</v></row>
+			<!-- 2022-03-06 21:09:30 CST / 1646622570 --> <row><v>8.3241335973e+01</v></row>
+			<!-- 2022-03-06 21:10:00 CST / 1646622600 --> <row><v>8.0368242124e+01</v></row>
+			<!-- 2022-03-06 21:10:30 CST / 1646622630 --> <row><v>9.4955485624e+01</v></row>
+			<!-- 2022-03-06 21:11:00 CST / 1646622660 --> <row><v>8.1025507541e+01</v></row>
+		</database>
+	</rra>
+</rrd>
